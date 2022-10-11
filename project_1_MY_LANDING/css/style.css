@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  background-color: rgb(55, 55, 55);
+  padding: 30px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  align-items: baseline;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+.name_cnz {
+      width: 555px;
+      font-size: 50px;
+      font-weight: 800;
+}
+
+.menu {
+      line-height:  25px;
+      display: flex;
+      gap: 30px;
+}
+
+.menu-item {
+      font-size: 30px;
+}
+
+.menu-item:hover {
+      color: rgb(244, 194, 194);
+      transform: scale(1.15);
+}
+
+.container {
+  width: auto;
+  
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+}
+
+.logo {
+  
+  width: 25%;
+}
+
+
+.new-title {
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.new-info {
+  letter-spacing: 1px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-text p {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.fat {
+  color: rgb(1, 176, 185);
+}
+
+.photo {
+  background-image: url(/project1/images/cnz.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 800px;
+}
+.new-img {
+  width: 35%;
+}
+
+.result {
+  padding-top: 100px;
+  margin: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: rgb(23, 25, 25);
+}
+
+td {
+  padding: 15px;
+  border: 2px solid rgb(10, 10, 10);
+  width: 1300px;
+}
+thead {
+  background-color: rgb(96, 7, 7);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.place {
+  background-color: rgb(226, 26, 26);
+  color: rgb(8, 4, 4) ;
+  font-weight: 600;
+}
+h3 {
+  padding-top: 25px;
+  margin: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  
+
+}
+.gallery-items {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+   align-items: center;
+}
+
+.gallery-pic {
+  width: 30%;
+}
+
+.gallery-items > div {
+  margin: 5px;
+  border-radius: 100px;
+
+}
+
+
+
+
+
+
+
